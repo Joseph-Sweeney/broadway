@@ -1,10 +1,11 @@
 body {
-  text-align: center;
   font-family: Helvetica;
 }
 
-.header {
+.hero {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  text-align: center;
 }
 
 h1,
@@ -13,29 +14,39 @@ h3 {
   font-weight: bold;
 }
 
-h1 {
+.hero h1 {
   font-size: 70px;
   color: white;
 }
 
-.header a {
-  font-size: 18px;
-  color: white;
+.supporting {
+  text-align: center;
 }
 
-h2 {
+.supporting h2 {
   font-size: 32px;
 }
 
-h3 {
+.supporting h3 {
   font-size: 23px;
 }
 
-p {
+.supporting-item p {
   font-size: 14px;
 }
 
-h3.NY {
-  background-image: url("../images/the-flatiron-building.png");
+.hero h2 {
+  font-size: 23px;
+}
+
+.footer {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+.top-nav,
+.btn-nav {
+  font-size: 18px;
   color: white;
 }
